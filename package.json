@@ -16,6 +16,7 @@
     "update": "git submodule update --recursive --remote",
     "publish": "npx quartz sync --no-pull",
     "dev": "npx quartz build --serve",
+    "build": "npx quartz build -o ./docs",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx ./quartz/util/path.test.ts",
